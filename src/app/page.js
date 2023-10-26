@@ -2,18 +2,18 @@
 
 import { Button } from "semantic-ui-react";
 
-const page = () => {
+const Page = () => {
 
   return (
     <div>
       <h2>Game Shop</h2>
 
-      <div>
-        <Button>Primary</Button>
-        <Button>Secondary</Button>
-      </div>
+      <Button primary>
+        ir al home
+      </Button>
     </div>
   )
 }
 
-export default page
+export default Page;
+

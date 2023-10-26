@@ -1,8 +1,6 @@
-"use client";
-
 import { Inter } from "next/font/google";
 import "semantic-ui-css/semantic.min.css";
-import "./globals.css";
+import "@/scss/global.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
